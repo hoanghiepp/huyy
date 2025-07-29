@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  color: #fff;
+  text-align: center;
+  background-color: #222;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url("https://vntre.vn/uploads/images/2024/05/24/bo-hinh-nen-anime-chill-tuyet-dep-012437570-1716558056.jpg")
+    no-repeat center center/cover;
+  z-index: -1;
+  filter: brightness(0.5);
+}
+
+.container {
+  padding: 60px 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.social-links img {
+  width: 50px;
+  margin: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.social-links img:hover {
+  transform: scale(1.1);
+}
+
+.about {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+
+.favorite-games {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.favorite-games h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.favorite-games ul {
+  list-style-type: "🎮 ";
+  padding-left: 20px;
+}
+
+.favorite-games li {
+  margin-bottom: 8px;
+  font-size: 18px;
+  color: #444;
+}
+.favorite-games {
+  background-color: #fdfdfd;
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 40px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.favorite-games h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.game-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.game-item {
+  width: 180px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.game-item:hover {
+  transform: scale(1.05);
+}
+
+.game-item img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.game-item p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+.profile-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #333;
+  margin-right: 20px;
+}
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.about-text {
+  max-width: 500px;
+}

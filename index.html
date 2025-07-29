@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Nguyễn Phú Quang Huy - Trang Cá Nhân</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    
+    
+    <!-- Ảnh đại diện và tên -->
+    <div class="avatar-container" style="text-align: center; margin-top: 20px">
+      <img
+        src="5f836f65-6b80-4c4d-acbc-a7b89e28f9f8.jpg"
+        alt="Ảnh đại diện"
+        style="
+          width: 180px;
+          height: 180px;
+          border-radius: 50%;
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+          object-fit: cover;
+        "
+      />
+      <h1 style="margin-top: 10px">Nguyễn Phú Quang Huy</h1>
+    <div class="background"></div>
+      <p style="font-size: 22px;">Chào mừng bạn đến với trang cá nhân của tôi!</p>
+      <section class="about-me">
+        <h2>Giới thiệu về tôi 👤</h2>       
+              Xin chào! Mình là <strong>Nguyễn Phú Quang Huy</strong>, một người
+              thích gái xinh và thích chơi game.
+            </p>
+      </section>
+
+<!-- QR Zalo + QR Web nằm ngang, kích thước đều nhau -->
+<div style="display: flex; justify-content: center; gap: 40px; margin-top: 30px; flex-wrap: wrap;">
+
+  <!-- Mã QR Zalo -->
+  <div style="text-align: center;">
+    <h2>Liên hệ qua Zalo 📱</h2>
+    <img
+      src="Screenshot 2025-07-29 204414.png"
+      alt="Mã QR Zalo"
+      style="width: 200px; height: 200px; margin-top: 10px; border: 2px solid #ddd; padding: 10px; background: white; box-sizing: border-box;"
+    />
+    <p>Quét mã để kết bạn Zalo với mình nhé!</p>
+  </div>
+
+  <!-- Mã QR Website -->
+  <div style="text-align: center;">
+    <h2>Mã QR truy cập trang web 📱</h2>
+    <img
+      src="URL QR Code.png"
+      alt="QR Code Website"
+      style="width: 200px; height: 200px; margin-top: 10px; border: 2px solid #ddd; padding: 10px; background: white; box-sizing: border-box;"
+    />
+    <p>Quét mã QR để truy cập nhanh!</p>
+  </div>
+
+</div>
+
+
+      <div class="social-links">
+        <a href="https://www.facebook.com/quang.huy.337889" target="_blank">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/733/733547.png"
+            alt="Facebook"
+          />
+        </a>
+        <a href="https://www.tiktok.com/@qhuy_kkk" target="_blank">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABVlBMVEULCxb///8A9+//AE8LAAAAAAAbGySgoKIA//f/AFEACxEACxP/AEDCBEDz0tgA/PT/AEaDBzAFqafaBEX48/Qv7ufh2N7vk6nX4uP/AEz/AEQLABEAABAFCxULBxQA7eYLAAgB0s0AAAnNzc+AgIPh4eK6ur3/ADwHkY/4///pAUpfCCf/+/y2BT3LBEKnBjk9PUOUlJdTU1jv7/BlZWkjIyswCR4B4dsKJSuB4t94CCxVCSUHhIMEu7cEysXzAEoJR0qRBjM6CR8ZCxgKOz4IZ2jqvcglChu7u71BQUfP2drIkJ/ZADzpPGrpGFbrnK7qco3v2uDsYoGdBjZICSHpq7nsUnadYHGFnaBx7uoHfHyT390JP0O55eUIWl3R8PD+ADDqhJosAAD4l6j5R27wt8PUu8du4N2D+PP3bIi74uGe8u5PbHHoUneK1tSfgYyfJEiqACXAS7i4AAANfUlEQVR4nO2d6VvbSBKHJSQNlmVAwVyWjMQxYGwOkxGJuRVDcDK7g8EkZBcIsOyQyV7Z4///sjpsXbSkltUyLU1++cKTJ7H7paqrr+pqgrS19HKzTKRf5c2XSw4qwvpp8SeGyQKghsgwPy0+IVS2mIXnbhlCLTBbiptwcYF57kYhFrOw6CRczoh/OlVmlm3CZUZ67vYkIIl53yNcyqAFdZWZpS7hqyzFGKcWXpmEL7MWZGwxL3VCpZzFTmhKKisaYYZNaBiRIF9lM8yYKr8iicUsm1Az4iIxnHHCYWIr24QLW8TPWe6G+lKKePXcbUhYP2h/sq7vhOnXcxDSwUL8bc9ASI8HagUx4nMQ5sYClGtkgXAoSL8HQrTLOQwJxawTym9FpF+HH2Hubg7p12FIeMLkTaH5uucknPzDDEh//KVoqI4G8VkJJ0iQRgVKF7uRWUKlZBBSxcwSkqelrBOemW6qZpdwqmJ2xOwSkm3DTdnXHIqvw5LQdFN2N7uEE7xB+AGJm2JJSJ4biGgGRDwJOwahml0vJckLA3EPBSKmhJ0Cso6IKaHZE4sZtiGpqLqbfkSAiCsheVlA5KbYElY/8Xo0nY39ddgSan5aQjKtwZeQHNUm4LX4booxITldoNjV2EbEmZA8F6hatgmrFwL7Iq6fYk2oBVRBPY5pRbwJdSuOxDQi5oRk9VyIGWxwJ9Qj6rtYiPgTkq0RJs7MJgWE5MSf4qRpp4GQJP/M9H9smg5Ccuea7pcxJYTk1fxJn4xpIVzbyc1rduzjBDwthCR5M5aTxz/T9FzEQ/D0EJK3sp5tM363TeuYogRpzhQRkjOT2n/SLDk/fn3yZnsOMkEsTYRaZzT+n2bK3JCsaR8GMVWEJHk/OWQrB5UClzJCcu1GtgjHMklIkorFmFVCzY63jQx7aVczO3LGCbUFx/3N5D6T5zTNBi6uUkuoa/qX9ebu3tGxFISYbkKeYln9GO5FwC5A2gnNvJTvhAPWd8LvhN8JPfpOmIB+94Sdy6wTjv7lQgH9fYYIC7zayjghVapcdLJNSFE8/wDhqs9BKIlzoVdCYQg1RvWsihuhDidt3+2PHxw2ZG0JLjcahwfj108Q4QipkqCehaWjDJJQpOntk5XDRi5n3BDt7RWN5eb7JdQkqNOBjIMjlDS8lUM5Z5HZGuufcKSpM56P+jvrgAilOXpuf34o95QuLmH+qMhSvNCeXgL9u4ER0vSbgzEfvLiEXL6pd0i+cnrWAVlyEIRz9MkhwDcRERJE/mjEjDqFx4fWlJcyeUKRvgvm0wkZfbvPuRkWhZDg8ntF1oDkC+rj+eWoMkBCid4+9HfPng7/+vrdscRxeasRkQh1xt0a2x1AeEHg1dPzXy9bv00tKUrChLS44m8/efLrze39jDJBdgosy1JqcaPea0VEQoOxSNkq8bxQKBQqlUoXMCFC+q7hc59Xvtq5V9Z6DZ7qNpi1rhNGJtQZVzdYlvJTEoQi7WNA+ettdc3Z4B4hFYdQZzyqq36MCRDS2/NAAzZunzQaEaHOmN8bARsSPSF9JwMMKO/cAxqMjNCAlHZHak8pkRPS1yC+G/ByByUhQcxyeWKvueGhREwoaV0QYD+/KTJaQgNSG3le79Y3ahoam8DJjESPP+2CX/2Xq8gJe5R5jXPvRfNDfX19JCjJNiohCHAS1P98CSUEhF3px6NGfYmgFNuIhCDAnTVQQwdBCKWIhPSKF1AOMmD6COl9L+Bk2IZRugjpE28UDfbQ1BHOvfV2wdswvnQRilLDbUL5H+GAqSKkD9ydMCzGpI6QPukHMEWEIuEZJWagAFNESB+4OyFMH0wVoXeggIii6SKUaHccvYEFTA2hZzJzBQ2YFkKJlp2AcliKgTLR0aVUU0PomXAHjhNK6+GxrfKFgqDWHs+//CakgdBjwqBO2LqgBL7UrbhWKvFC90fMCd29cNJ3tl390i5YRF7hTOgJpL5D/eijPx/ehHN3ThPu+BnwQQjgw5vQNZ3xi6NLbSGID2tCcdYZZnwmMx010IB4E9LXDif1CTOjIECWVYsbI+v19Y2iyrI4Ex6OhZlw6ikgy240Px6bm315Tjp60Ttdw49QosfCTDhR8wKyteZsnrMrBM1yHGd9Hm6ErpUveLD/xnv5djnf+kcYEo7bNgQH0suCG5D6wAVsQmNI2AgZCxV3J2RrR/mgWzrYEYrbjjkpcMp97vJRdiTwFAFDwjnH4h4YZ8zacRZgPdCAOBI6Z93AOPPARwLEkNCesoH3D2tOwPXwVuFHOG8RAp205QykRYgaebgRSqIdSoGR1Bln1COIakC4ETpDKXDG5pjOwFUew47wrR1KQUeFS441E1wRddwI595YobQBak/LJmThqo1iR2iv77+C2nMpRDQhzoT/BLVn2go0sEUccSN0rCyAZzH2eF8LvhZvCWNCYE6CNViwsE+K4Esog5rjIIQu/ocZod0PgaHU9lL1GLIwnjgbTNjCjPDMeywRKvEzZoTWeHgF3KKx2gMx5zZl+z2Y0Bp/Bj6nAZ8ZTnXbwzahu6GVvAkmPOMHTGjNS/8GJKyqkQkPgwkfBkwoEY1AQvLCnHkHJrG6PlC0pvJgwr8PmNBeH/oQdjfaoGuLO3ZFgITV09KgCQ+CCc0XU+Bt6NgzABKuWXsGAyPsHXD7EHbHfNh+6FxvTgJ/Y5UeIXR0DlY4YS+4++VfdCI9e+Pc2AJ+or0rMihC65fum2FiGhGuPa6MAOCuyK+RJ7ohgt/zBs9pLCPC1fh3JXUAd0WsQAPds0MEf27hS0hO66O+ClOT2p2DC0oIqForagSPBhiCIOwdkPoSGgEeZriQXEeRMmgaaN/khtwUCRXE+aHYJfS7b6xN3fgSVEd0Jx4Bd0XsFTWiZ9egzoC7Y35AvmWLh1k+uY7LfZz00dqcrBHxX2CBJewGeOA+TQ+xEO6m9J0rvRHYrzv2/jKiBx6hcjG2x/y9qqcvlVJINKVPhlwCRlJ7YwvVcAiXT2PGB/A2hvXbV0tBRhTpfXcKLvAQxOGkiN4GhCTsTmv8Q40u5ZNQ9u05tOhJ9Aeb0FETA8lrVrCEvdOZkMzn6uUHnwr/c/SJ91o0eMfgwnbS+A/MRCDsRfnAjqhr4l/M06rpEk2/fVKXQAZuTSoOE6LqhnCE4g9m1wl/F6axsu2smi6JNE2cAOoSgHNwHcfJyLohbI6wOXMLv0MyMzQ0v2JUTTckfr4+kAF1F8BpOYozpwNyBx0VoSgarfRLvHTofmgsNybrxYXGxw8aDXBRF58kY2dGAKInq6EJCfPqqH92sMOKxvJozBSAzh/QmdSBzkmh71tIMpybag2dBHNZQcYvJLvOyxE8mheNsDunDI2muia+BgFO+iVRdxyBFCanAzWhZM6/4er93Tf8+OQbP0evth1xBtXKKQphd/EKEWt0rd0AXVXe8f8NnTmzVtDFmUj3D/VhP/S2jMV4eyV78CZ96koY6jhHClTL+4iE5gId/koXqdzuXHXdVW5c3d4HBWJ7HxjlwikiobnrBp5u+WmNrFZnZpQqGTbMPAhJmTDSXW5jCQvZE6OpVaGSMmHE+/jaah/2dmwUddxZ1AgDaVRCY2oT4e4hpBRXIjzKsTA6oaTfWIe9AQyribYrizr2o5WxCAmRPsxFCzahqp66s6jRzUj7ItRWGfO5rxATcHjAb940cbSA0WsMifR8DvoiNwTgJ3eUQTjl7pdQQzyAnJ5CSGl7LqPsIfbRvmp9SfQ4zEIRRkue60TxX/9FQqgh7qMZMrw33lAPFIb6rLl3928EgGeeS6fsRuhVhj7UZ91Eurwcl0/55rkuxRaTAOy79qXE/CfeywatmifGUEUJeZTR1X/9Uua/kNXvgQa8eHItuhbvYWNf9U84u/A/6EcMPKqelbwGZItBN/riKE4d4XxdeOjDVauttvfCohZkkgKMVyk53+TV6Yh2rLZOn9YlYNcTA4xZ7Tq/SvHU+VQEvss2oC4B20wkipqKWc+bOy5SfOX0Es5ZO+cCqO6CuprAQG8pbk12Ll+nqFJBvWhNBD/WoIxOtyve+GJ2wYSCaFexq87P5vf0ctt6PfHpUZ8+We1cXrQFHlx1oRlyqzauELyNwHF1o6l6MZraxdkXJ+faVOvy4ZTi/fA0AybpobpQvP4wmz/a6La4VBKEQqWg1trt03a7JlQKBT84na+2mrABCVQveHD51aK7QnNJlx9Zj+9FcmOELVRvlHCclzFEGt8s8vU8SOjemeHyH30KigPwqOJufiB8aN8K4vLHzSIVCsmytfpR8v2vJ7SvIXGaIZsbVFCRf7ZY3+MGx5fAi1Ya5PFeXadkvWwa3fruu4HiaXqVwGfO6nV3jleb9ZFiTTVV3Kh/2H2t1+IZLJ5mwc1yQh9tFRN3/JDQVwVI2iS2Fgb/tQPUwhYxzDx3IxIVM0wsZpxwkVgjkuqIOKis8ZE/ZtmIzI8kQS5lmnBJI8yyETUT6oQTme2JZWLCICQzG06ZRdIkJDM6JjLDZI8wm4gmYJeQXGayNnlbYLrHf11CcmmTyVK8KTObvesvPULNjJtMRiDLDLNpn9/ahOTa+y2CyYKIrfeORAoHoeGsy8Np17Lndtb/AVqm0sokGE3AAAAAAElFTkSuQmCC"
+            alt="TikTok"
+          />
+        </a>
+        <a href="https://zalo.me/84911741035" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg"
+            alt="Zalo"
+          />
+        </a>
+      </div>
+
+      <section class="favorite-games">
+        <h2>Tựa game yêu thích 🎮</h2>
+        <div class="game-list">
+          <div class="game-item">
+            <a href="https://lienquan.garena.vn/" target="_blank">
+              <img
+                src="https://img.utdstc.com/icon/cc2/e0f/cc2e0f7a7432a583e43ff44b472a197019dc91669e5a6c54f776c89a00b261dd:200"
+                alt="Liên Quân"
+              />
+              <p>Liên Quân Mobile</p>
+            </a>
+            <p>
+              <a
+                href="https://img.utdstc.com/icon/cc2/e0f/cc2e0f7a7432a583e43ff44b472a197019dc91669e5a6c54f776c89a00b261dd:200"
+                target="_blank"
+                >📷 Xem ảnh game</a
+              >
+            </p>
+          </div>
+
+          <div class="game-item">
+            <a href="https://ff.garena.vn/" target="_blank">
+              <img
+                src="https://play-lh.googleusercontent.com/Odw8BGugaJLdbaSbCeZWbTE3Qz1wTiQ0Tsn9nzpoQdnkzWb-gaI58zzTmYDvGpdYKg=w240-h480-rw"
+                alt="Free Fire"
+              />
+              <p>Free Fire</p>
+            </a>
+            <p>
+              <a href="tải xuống.jpg" target="_blank">📷 Xem ảnh game</a>
+            </p>
+          </div>
+
+          <div class="game-item">
+            <a href="https://www.callofduty.com/" target="_blank">
+              <img
+                src="https://cdn.cloudflare.steamstatic.com/steam/apps/1938090/header.jpg"
+                alt="Call of Duty"
+              />
+              <p>Call of Duty</p>
+            </a>
+            <p>
+              <a
+                href="https://cdn.cloudflare.steamstatic.com/steam/apps/1938090/header.jpg"
+                target="_blank"
+                >📷 Xem ảnh game</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="about">
+        <h2>Giới thiệu bản thân</h2>
+        <p>
+          Tôi là Nguyễn Phú Quang Huy. Tôi là huy, đam mê thích gái đẹp và
+          xinh😊. Nhất nhưng friend hot girl Đây là nơi chia sẻ thông tin, liên
+          hệ, và các hoạt động cá nhân của tôi! LƯU Ý CÁC FRIENDS GIRL PRETTY
+          NHỚ ADD TÔI NHA!!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
